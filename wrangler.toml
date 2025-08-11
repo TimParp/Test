@@ -1,8 +1,7 @@
-  {
-	    "name": "MegaProject-worker",
-	    "compatibility_date": "2025-08-11",
-	    "assets": {
-	      "directory": "./dist"
-	    }
-	  }
+name = "MegaProject-worker"
+main = "src/index.js"
+compatibility_date = "2025-08-10"
 
+[site]
+bucket = "./"
+entry-point = "src"
