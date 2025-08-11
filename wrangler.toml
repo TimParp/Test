@@ -1,4 +1,4 @@
-name = "MegaProject-worker"
+name = "megaproject-worker"
 main = "src/index.js"
 compatibility_date = "2025-08-10"
 

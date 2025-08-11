@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env, ctx) {
     // Serve the index.html file
-    const html = <!DOCTYPE html>
+    const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,7 @@ export default {
 <body>
     <h1>Hello World</h1>
 </body>
-</html>;
+</html>`;
 
     return new Response(html, {
       headers: {
